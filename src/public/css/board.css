@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+#day {
+    margin-left:auto
+}
+
+#buttun {
+    margin-left:auto
+}
+
+.logout {
+    margin-left:auto !important
+}
+
+#header {
+    display: flex;
+}
+
+#hooter {
+    display: flex;
+}
+
+.error {
+    color: red;
+    margin-left: 30px;
+}
+
+#box {
+    margin-top: 40px;
+}
+
