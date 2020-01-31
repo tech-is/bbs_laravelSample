@@ -68,13 +68,13 @@ class BoardController extends Controller
                 'name' => $request->name,
                 'message' => $request->message
             ]);
-        return $this->admin();
+        return redirect('/admin');
     }
 
     //掲示板削除の処理
-    public function destroy($id){
+    public function destroy(Request $request, $id){
         Board::destroy($id);
-        return $this->admin();
+        return redirect('/admin');
     }
 
     //ログインパスワードが合ってるかの確認
